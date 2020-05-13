@@ -4,38 +4,68 @@ p {
   box-sizing: border-box;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start {
+  padding: 0 3rem;
+  width: 33%;
+}
 
 header {
-  background-color: #889;
-  height: 3.2em;
+  background-color: #ffffff;
+  height: 2.5rem;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 header svg {
-  width: 2em;
-  height: 2em;
+  width: 1.2em;
+  height: 1em;
 }
 
-header > button {
+header  button {
 background: none;
 border: none;
+padding:0 1rem;
 }
 
-.start {
-  padding: 1em 2em;
-  background: #f43434;
+header .space-cosmos {
+  font-size: 0.9rem;
+  color: #4c4c4c;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 1rem;
+  text-transform: uppercase;  
 }
 
 .center {
-  padding: 1em 2em;
-  background: #184cbd;
+  width: 33%;
 }
 
-.end {
-  padding: 1em 2em;
-  background: #18b413;
+.center h2 {
+  font-size: 1.2rem;
+  color: #4c4c4c;;
 }
+
+
+.end {
+  width: 33%;
+}
+
+.end button {
+  border: 1px solid black;
+  background-color: #567b95;
+  color: white;
+  border-radius: 4px;
+  padding:  0.4rem 1rem;
+  margin: 0 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
