@@ -1,0 +1,41 @@
+body,
+p {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #889;
+  height: 3.2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header svg {
+  width: 2em;
+  height: 2em;
+}
+
+header > button {
+background: none;
+border: none;
+}
+
+.start {
+  padding: 1em 2em;
+  background: #f43434;
+}
+
+.center {
+  padding: 1em 2em;
+  background: #184cbd;
+}
+
+.end {
+  padding: 1em 2em;
+  background: #18b413;
+}
