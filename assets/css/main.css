@@ -102,6 +102,12 @@ main img {
   width: 100%;
 }
 
+.intro {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .heading {
   font-style: italic;
   font-family: georgia,'times new roman',times,serif;
@@ -155,10 +161,39 @@ figcaption > span {
 
 main h2 {
   font-size: 1.05rem;
-  border: 1px solid black;
-  margin: 3rem 0 1.5rem 0 ;
+  margin: 3rem 0 1.5rem 0;
 }
 
+p {
+  color: #333;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: georgia,'times new roman',times,serif;
+}
 
+.img-bg {
+  width: 100%;
+  max-width: 945px;
+}
+
+figure {
+  position: relative;
+}
+
+.toi-bg {
+  /* background-image: url('../img/inflation-945.png'); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  position: absolute;
+top: 11em;
+column-gap: 4em;
+
+}
+
+.toi-bg p {
+  font-size: 12px;
+  line-height: 1em;
+}
 
 
