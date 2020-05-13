@@ -139,3 +139,26 @@ ul li {
 li svg:hover {
   background-color: #fff;
 }
+
+.heading-content figcaption{
+  font-family: georgia,'times new roman',times,serif;
+  font-size: 0.9375rem;
+  color: #666;
+  width: 79.8%;
+
+} 
+
+figcaption > span {
+ font-size: 0.8135rem;
+ color: #888;
+}
+
+main h2 {
+  font-size: 1.05rem;
+  border: 1px solid black;
+  margin: 3rem 0 1.5rem 0 ;
+}
+
+
+
+
