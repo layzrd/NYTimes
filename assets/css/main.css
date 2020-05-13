@@ -1,20 +1,26 @@
-body,
-p {
+body, button, svg, div, p, figure {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin-top: 2.5rem;
+}
+
+body a {
+  text-decoration: none;
+  
 }
 
 .flex-center {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .start {
-  padding: 0 3rem;
-  width: 33%;
+  width: 33.3%;
 }
 
-header {
+.navbar {
   background-color: #ffffff;
   height: 2.5rem;
   position: fixed;
@@ -22,30 +28,33 @@ header {
   width: 100%;
   display: flex;
   border-bottom: 1px solid #e2e2e2;
+  font-family: helvetica,arial,sans-serif;
 }
 
-header svg {
-  width: 1.2em;
-  height: 1em;
+.navbar svg:not(.logo) {
+  width: 1.5em;
+  height: 1.5em;
 }
 
-header  button {
+.logo {
+  height: 66.49%;
+}
+
+.navbar  button {
 background: none;
 border: none;
 padding:0 1rem;
 }
 
-header .space-cosmos {
-  font-size: 0.9rem;
-  color: #4c4c4c;
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 1rem;
-  text-transform: uppercase;  
+.navbar .space-cosmos {
+  font-size: 0.9em;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .center {
-  width: 33%;
+  width: 33.3%;
 }
 
 .center h2 {
@@ -55,17 +64,45 @@ header .space-cosmos {
 
 
 .end {
-  width: 33%;
+  width: 33.3%;
 }
 
 .end button {
-  border: 1px solid black;
+  border: 1px solid #326891;
   background-color: #567b95;
   color: white;
-  border-radius: 4px;
-  padding:  0.4rem 1rem;
+  border-radius: 3px;
+  padding: 0.86em 1em;
   margin: 0 0.2rem;
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+  cursor: pointer;
+}
+
+.end button:hover {
+  border: 1px solid #326891;
+  background-color: #326891;
+}
+
+main {
+  margin-top: 2em;
+  padding-top: 3em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+main img {
+  width: 100%;
+}
+
+.heading {
+  font-style: italic;
+  font-family: georgia,'times new roman',times,serif;
+  max-width: 665px;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin: 0 0 1em 3em;
 }
 
