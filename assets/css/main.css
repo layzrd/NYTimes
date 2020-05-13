@@ -1,6 +1,12 @@
 body, button, svg, div, p, figure {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 body {
@@ -106,3 +112,30 @@ main img {
   margin: 0 0 1em 3em;
 }
 
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: inline-flex;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+ li svg {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+li svg:hover {
+  background-color: #fff;
+}
