@@ -106,3 +106,46 @@ main img {
   margin: 0 0 1em 3em;
 }
 
+.heading-content figcaption{
+  font-family: georgia,'times new roman',times,serif;
+  font-size: 0.9375rem;
+  color: #666;
+  width: 79.8%;
+
+} 
+
+figcaption > span {
+ font-size: 0.8135rem;
+ color: #888;
+}
+
+main h2 {
+  font-size: 1.05rem;
+  border: 1px solid black;
+  margin: 3rem 0 1.5rem 0 ;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.date svg{
+  height:15px;
+  width: 15px;
+
+}
+.date a{
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+  
+}
+
+
+
