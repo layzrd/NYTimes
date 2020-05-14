@@ -11,6 +11,8 @@ button {
 
 body {
   margin-top: 2.5rem;
+  margin: 0 auto;
+  
 }
 
 body a {
@@ -102,10 +104,14 @@ main img {
   width: 100%;
 }
 
-.intro {
+.intro, .paragraphs {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.intro p, .paragraphs p {
+  margin-bottom: 1.5rem;
 }
 
 .heading {
@@ -171,9 +177,29 @@ p {
   font-family: georgia,'times new roman',times,serif;
 }
 
-.img-bg {
+.img-bg { 
   width: 100%;
   max-width: 945px;
+  margin: 0 auto
+}
+
+.img-bg h2 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: georgia,times,serif;
+}
+.img-bg figcaption{
+  color: #666;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family:georgia,times,serif;
+  font-size: 14px;
+
+ 
 }
 
 figure {
@@ -184,16 +210,47 @@ figure {
   /* background-image: url('../img/inflation-945.png'); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  position: absolute;
-top: 11em;
-column-gap: 4em;
+  column-gap: 1.5em;
+}
 
+.toi-bg img {
+  align-self: flex-start;
 }
 
 .toi-bg p {
-  font-size: 12px;
-  line-height: 1em;
+  font-family:arial,helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #333;
+  font-weight: 100;
 }
+
+.toi-bg p strong {
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.toi-bg .second-row {
+  grid-row: 4;
+}
+
+.toi-bg .first-row {
+  grid-row: 2;
+
+}
+
+.fig-caption{
+  display: inline-block;
+  margin: 3rem 0;
+  font-size: 0.8rem; 
+  
+}
+
+.fig-caption > span {
+  border-top: 1px solid black;
+  padding-top: 1rem;
+}
+
 
 
