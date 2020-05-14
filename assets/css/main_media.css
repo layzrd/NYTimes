@@ -16,11 +16,11 @@
     padding-right: 0.9em;
   }
 
-  main {
+  body > main {
     width: 60%;
   }
 
-  main img {
+ body > main img {
     max-width: 1200px;
   }
 
