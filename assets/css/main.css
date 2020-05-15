@@ -394,7 +394,15 @@ color: #666;
     border-top: 2px solid #e5e5e5;
     padding-top: 10px;
     border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
   }
+
+  footer header {
+      padding-bottom: 1em;
+      display: flex;
+      justify-content: space-between;
+  }
+
   footer header  svg 
   {
     width: 186px;
@@ -415,11 +423,14 @@ justify-content: space-between;
   footer section > h3, footer .subs>h3 {
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 0.85em;
   }
 
-  footer header+div {
-    display: flex;
-justify-content: right;
+  footer header > div > a {
+    color: #567b95;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 0.7em;
+    font-weight: 400;
   }
 
   footer ul {
@@ -448,15 +459,8 @@ justify-content: right;
   }
 
   .top-subscribe {
-    font-size: 1.2em;
-    font-weight: 700;
-
-  }
-
-  .top-subscribe li {
-    display: flex;
-    align-items: center;
-    height: 50px;
+    font-weight: 900;
+    font-size: 16px;
   }
 
   .top-subscribe li svg {
@@ -465,11 +469,17 @@ justify-content: right;
     border: none;
     height: 25px;
     width: 25px;
+    vertical-align: bottom;
   }
 
   ul.bottom-subscribe li , ul.middle-subscribe li{
     font-size: .8em;
-    padding: 7px 0;
+    padding-bottom: 0.6em;
+  }
+
+  .bottom-subscribe,
+  .middle-subscribe {
+    padding-top: 1em;
   }
 
   .bottom-subscribe {
