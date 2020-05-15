@@ -177,8 +177,8 @@ body > main h2 {
 
 p {
   color: #333;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
   font-family: georgia,'times new roman',times,serif;
 }
 
@@ -355,6 +355,27 @@ figure {
   line-height: 1.25em;
 }
 
+.stanford-video {
+  width: 600px;
+  height: 357.5px;
+  margin: 43px auto;
+
+
+}
+
+.bicep2-image {
+  width: 100%;
+  max-width: 720px;
+  margin: 3rem auto;
+}
+
+.bicep2-image figcaption {
+  font-size: 1em;
+  color: #666;
+  padding-top: 10px;
+  
+}
+
 .paragraphs .small-gray-font {
 font-family: helvetica, arial, sans-serif;
 font-size: 0.75rem;
@@ -383,11 +404,29 @@ color: #666;
   .paragraphs .flex {
     justify-content: space-between;
   }
+   
+  .paragraphs figcaption {
+    font-size: .9em;
+    color: #666;
+  }
 
+  .paragraphs p a {
+   color: #326891;
+   text-decoration: underline;
+  }
+
+  .paragraphs strong {
+    display: block;
+    font-size: 1.32em;
+    color: #333;
+    margin: 1rem 0;
+    
+  }
   /* footer */
 
   footer {
-    width: 75%;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -494,3 +533,21 @@ justify-content: space-between;
   footer h3{
     margin-top: 0;
   } 
+
+  .editors-text  {
+   border-top: 1px solid black;
+   min-width: 100%;
+  }
+
+  .editors-text h3 {
+    margin: 10px 0;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.375rem;
+
+  }
+   
+  .editors-text h3:hover {
+    text-decoration: underline;
+  }
