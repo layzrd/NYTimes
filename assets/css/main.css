@@ -265,7 +265,7 @@ figure {
 .more {
   display: grid;
   column-gap: 1em;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 55% auto;
   /* grid-auto-rows: minmax(auto, auto); */
   grid-template-areas:
    "heading1 heading1 heading2"
@@ -304,7 +304,7 @@ figure {
 }
 
 .more > main {
-  height: 100%;
+  height: min-content;
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
@@ -332,13 +332,13 @@ figure {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 275px;
   margin: 0 1em 1em 0; 
   height: min-content;
 }
 
 .card img {
-  width: 300px;
+  width: 100%;
 }
 
 .card figcaption {
