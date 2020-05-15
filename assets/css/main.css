@@ -21,7 +21,7 @@ body {
 
 body a {
   text-decoration: none;
-  
+  color: #333;
 }
 
 .flex-center {
@@ -384,4 +384,41 @@ color: #666;
     justify-content: space-between;
   }
 
-  
+  /* footer */
+
+  footer {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  footer header  svg 
+  {
+    width: 186px;
+  }
+
+  footer > div {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+
+  footer ul > li {
+    display: block;
+    list-style: none;
+    padding-bottom: .3em;
+  }
+
+  footer section > h3, footer .subs>h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  footer header+div {
+    display: flex;
+justify-content: right;
+  }
+
+  footer ul {
+    display: block;
+  }
