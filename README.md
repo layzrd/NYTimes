@@ -15,7 +15,7 @@ This web page is developed by HTML5 and CSS only, without using any framework or
 
 ## Live Demo
 
--  Coming Soon
+-  [Live Preview](https://raw.githack.com/abredi/NYTimes/feature/nytimesclone/index.html)
 
 ## Getting Started
 
