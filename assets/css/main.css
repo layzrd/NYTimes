@@ -1,6 +1,9 @@
 .flex {
   display: flex;
 }
+iframe {
+  border: 0;
+}
 
 body, button, svg, div, p, figure, ul, h2 {
   margin: 0;
