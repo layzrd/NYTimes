@@ -1,6 +1,9 @@
 .flex {
   display: flex;
 }
+iframe {
+  border: 0;
+}
 
 body,
 button,
