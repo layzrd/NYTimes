@@ -1,6 +1,7 @@
 .flex {
   display: flex;
 }
+
 iframe {
   border: 0;
 }
@@ -312,7 +313,6 @@ figure {
   padding: 1em;
 }
 
-
 /* Suggestions */
 .more {
   display: grid;
@@ -455,8 +455,6 @@ footer ul > li {
   padding: 5px 100px;
   text-transform: uppercase;
 }
-
-
 
 /* footer */
 
