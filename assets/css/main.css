@@ -608,3 +608,38 @@ div.subs {
   border-top: 1px solid black;
   min-width: 100%;
 }
+
+.corona-info {
+  border-top: 1px solid black;
+  display: flex;
+  font-size: 16px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 94%;
+}
+
+.corona-info div:first-child {
+  display: flex;
+  justify-content: right;
+  flex: 1.8;
+  padding: 1rem 0;
+}
+
+.corona-info div:last-child {
+  display: flex;
+  flex: 1.2;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+.corona-info div:last-child a {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 1.5rem;
+}
+
+.corona-info div:last-child svg {
+  transform: rotate(-90deg);
+}
