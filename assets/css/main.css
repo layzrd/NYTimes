@@ -403,6 +403,7 @@ footer ul > li {
 
 .card img {
   width: 100%;
+  max-height: 183px;
 }
 
 .card figcaption {
