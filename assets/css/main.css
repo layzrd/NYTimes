@@ -33,6 +33,12 @@ body a {
   color: #333;
 }
 
+footer > .logo svg {
+  height: 46px;
+  width: 100%;
+  max-width: 184px;
+}
+
 footer header > div > a {
   color: #567b95;
   font-family: helvetica, arial, sans-serif;
@@ -44,7 +50,7 @@ p {
   color: #333;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  font-family: georgia, 'times new roman', times, serif;
+  font-family: georgia, "times new roman", times, serif;
 }
 
 .intro,
@@ -203,7 +209,7 @@ body > main img {
 
 .heading {
   font-style: italic;
-  font-family: georgia, 'times new roman', times, serif;
+  font-family: georgia, "times new roman", times, serif;
   max-width: 665px;
   font-weight: 700;
   font-size: 2.3rem;
@@ -227,7 +233,7 @@ ul li {
 }
 
 .heading-content figcaption {
-  font-family: georgia, 'times new roman', times, serif;
+  font-family: georgia, "times new roman", times, serif;
   font-size: 0.9375rem;
   color: #666;
   width: 79.8%;
@@ -260,6 +266,7 @@ figcaption > span {
   font-style: normal;
   font-family: georgia, times, serif;
   font-size: 14px;
+  margin-bottom: 1em;
 }
 
 figure {
@@ -346,7 +353,7 @@ figure {
   padding: 1rem 0;
 }
 
-.more main {
+.more .main {
   grid-area: realtedNews;
 }
 
@@ -354,7 +361,7 @@ figure {
   grid-area: popular;
 }
 
-.more > main {
+.more > .main {
   height: min-content;
   display: flex;
   max-width: 100%;
@@ -454,6 +461,49 @@ footer ul > li {
   line-height: 1.5rem;
   padding: 5px 100px;
   text-transform: uppercase;
+}
+
+.comments-icon {
+  align-items: center;
+  background: transparent none repeat scroll 0% 0%;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  min-width: 26px;
+  min-height: 14px;
+  padding: 4px;
+  position: relative;
+  width: auto;
+}
+
+.comments-icon::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0 0 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0;
+}
+
+.comments-icon::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0 0 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0;
+}
+
+.comments-icon > span {
+  color: rgb(102, 102, 102);
+  cursor: pointer;
 }
 
 /* footer */
