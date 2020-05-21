@@ -1,0 +1,42 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .navbar > .start {
+    justify-content: center;
+    padding-left: 0.9em;
+  }
+
+  .navbar > .end {
+    justify-content: center;
+    padding-right: 0.9em;
+  }
+
+  body > main {
+    width: 60%;
+  }
+
+  body > main img {
+    max-width: 1200px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1626px) {
+  .navbar > .start {
+    justify-content: flex-start;
+    padding-left: 0.9em;
+  }
+
+  .navbar > .end {
+    justify-content: flex-end;
+    padding-right: 0.9em;
+  }
+}

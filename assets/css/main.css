@@ -1,0 +1,645 @@
+.flex {
+  display: flex;
+}
+
+iframe {
+  border: 0;
+}
+
+body,
+button,
+svg,
+div,
+p,
+figure,
+ul,
+h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+body {
+  margin: 2.5rem auto 0;
+}
+
+body a {
+  text-decoration: none;
+  color: #333;
+}
+
+li svg {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+footer header svg {
+  width: 186px;
+}
+
+.center svg {
+  width: max-content;
+}
+
+footer > .logo svg {
+  height: 46px;
+  width: 100%;
+  max-width: 184px;
+}
+
+footer header > div > a {
+  color: #567b95;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.intro,
+.paragraphs {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro p,
+.paragraphs p {
+  margin-bottom: 1.5rem;
+}
+
+.paragraphs .flex {
+  justify-content: space-between;
+}
+
+.paragraphs figcaption {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.paragraphs p a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.paragraphs strong {
+  display: block;
+  font-size: 1.32em;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.start {
+  width: 33.3%;
+}
+
+.corona-info div svg {
+  transform: rotate(-90deg);
+  margin-left: 2em;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 2.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  font-family: helvetica, arial, sans-serif;
+  z-index: 10;
+}
+
+.top-subscribe li svg {
+  background-color: #fff;
+  display: inline-block;
+  border: none;
+  height: 25px;
+  width: 25px;
+  vertical-align: bottom;
+}
+
+li svg:hover {
+  background-color: #fff;
+}
+
+.navbar svg:not(.logo) {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.logo {
+  height: 66.49%;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  padding: 0 1rem;
+}
+
+.navbar .space-cosmos {
+  font-size: 0.9em;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body > main h2 {
+  font-size: 1.05rem;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.center h2 {
+  font-size: 1.2rem;
+  color: #4c4c4c;
+}
+
+.center {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+
+.end {
+  width: 33.3%;
+}
+
+.end button {
+  border: 1px solid #326891;
+  background-color: #567b95;
+  color: white;
+  border-radius: 3px;
+  padding: 0.86em 1em;
+  margin: 0 0.2rem;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+  cursor: pointer;
+}
+
+.end button:hover {
+  border: 1px solid #326891;
+  background-color: #326891;
+}
+
+body > main {
+  padding-top: 3em;
+  margin: 2em auto 0;
+  width: 80%;
+}
+
+body > main img {
+  width: 100%;
+}
+
+.heading {
+  font-style: italic;
+  font-family: georgia, "times new roman", times, serif;
+  max-width: 665px;
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin: 0 0 1em 3em;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: inline-flex;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.heading-content figcaption {
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 0.9375rem;
+  color: #666;
+  width: 79.8%;
+}
+
+figcaption > span {
+  font-size: 0.8135rem;
+  color: #888;
+}
+
+.img-bg {
+  width: 100%;
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.img-bg h2 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: georgia, times, serif;
+}
+
+.img-bg figcaption {
+  color: #666;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: georgia, times, serif;
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+figure {
+  position: relative;
+}
+
+.toi-bg {
+  /* background-image: url('../img/inflation-945.png'); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.5em;
+}
+
+.toi-bg img {
+  align-self: flex-start;
+}
+
+.toi-bg p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333;
+  font-weight: 100;
+}
+
+.toi-bg p strong {
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.toi-bg .second-row {
+  grid-row: 4;
+}
+
+.toi-bg .first-row {
+  grid-row: 2;
+}
+
+.fig-caption {
+  display: inline-block;
+  margin: 3rem 0;
+  font-size: 0.8rem;
+}
+
+.fig-caption > span {
+  border-top: 1px solid black;
+  padding-top: 1rem;
+}
+
+.space {
+  padding: 1em;
+}
+
+/* Suggestions */
+.more {
+  display: grid;
+  column-gap: 1em;
+  grid-template-columns: 55% auto;
+
+  /* grid-auto-rows: minmax(auto, auto); */
+  grid-template-areas:
+    "heading1 heading1 heading2"
+    "realtedNews realtedNews popular"
+    "realtedNews realtedNews popular"
+    "realtedNews realtedNews popular";
+  width: 100%;
+  max-width: 1200px;
+  margin: 3em auto;
+}
+
+.more .more-news {
+  grid-area: heading1;
+}
+
+.more .popular-news {
+  grid-area: heading2;
+}
+
+.more h2 {
+  height: min-content;
+  margin: 0.5em 0;
+  font-size: 1em;
+  border-top: 1px solid black;
+  padding: 1rem 0;
+}
+
+.more .main {
+  grid-area: realtedNews;
+}
+
+.more aside {
+  grid-area: popular;
+}
+
+.more > .main {
+  height: min-content;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.sideList {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul > li {
+  display: block;
+  list-style: none;
+  padding-bottom: 0.3em;
+}
+
+.sideList li {
+  border-top: 1px solid #e2e2e2;
+  padding: 1em 0;
+}
+
+.sideList li a {
+  color: #121212;
+  font-family: georgia, "times new roman", times, serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375em;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 275px;
+  margin: 0 1em 1em 0;
+  height: min-content;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card figcaption {
+  color: #999;
+  font-size: 0.7em;
+  padding-bottom: 4px;
+  text-align: right;
+}
+
+.descent {
+  color: #999;
+  padding-bottom: 4px;
+  font-size: 0.83em;
+  line-height: 1.25em;
+}
+
+.stanford-video {
+  width: 600px;
+  height: 357.5px;
+  margin: 43px auto;
+}
+
+.bicep2-image {
+  width: 100%;
+  max-width: 720px;
+  margin: 3rem auto;
+}
+
+.bicep2-image figcaption {
+  font-size: 1em;
+  color: #666;
+  padding-top: 10px;
+}
+
+.paragraphs .small-gray-font {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #666;
+}
+
+.paragraphs .small-gray-font a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.paragraphs button.read-comments {
+  border: 1px solid #326891;
+  background-color: #567b95;
+  color: #fff;
+  border-radius: 3px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  padding: 5px 100px;
+  text-transform: uppercase;
+}
+
+.comments-icon {
+  align-items: center;
+  background: transparent none repeat scroll 0% 0%;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  min-width: 26px;
+  min-height: 14px;
+  padding: 4px;
+  position: relative;
+  width: auto;
+}
+
+.comments-icon::before {
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  bottom: -7px;
+  border-width: 6px 0 0 8px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0;
+}
+
+.comments-icon::after {
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0 0 6px;
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0;
+}
+
+.comments-icon > span {
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  border-top: 2px solid #e5e5e5;
+  padding-top: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
+footer h3 {
+  margin-top: 0;
+}
+
+footer header {
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer section > h3,
+footer .subs > h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.bold-text {
+  margin: 10px 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.375rem;
+}
+
+.editors-text h3:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  display: block;
+}
+
+.bottom-subscribe li,
+.middle-subscribe li {
+  font-size: 0.8em;
+  padding-bottom: 0.6em;
+}
+
+.bottom-footer ul {
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+  padding: 0.8rem;
+}
+
+.bottom-footer ul li {
+  color: #666;
+  font-size: 0.7em;
+  padding: 0.4rem;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+}
+
+.bottom-footer ul li:hover {
+  text-decoration: underline;
+}
+
+.top-subscribe {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.bottom-subscribe,
+.middle-subscribe {
+  padding-top: 1em;
+}
+
+.bottom-subscribe {
+  border-top: 1px solid #e5e5e5;
+}
+
+div.subs {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 1rem;
+}
+
+.editors-text {
+  border-top: 1px solid black;
+  min-width: 100%;
+}
+
+.corona-info {
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 16px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10em;
+}
+
+.corona-info > * {
+  height: 100%;
+  padding: 1em 0;
+}
+
+.corona-info > div:first-child {
+  text-align: right;
+  padding: 1em 7em;
+}
+
+.corona-info > div:last-child {
+  font-weight: 600;
+  font-size: 12px;
+}
