@@ -135,6 +135,11 @@ p {
   width: 33.3%;
 }
 
+.corona-info div svg {
+  transform: rotate(-90deg);
+  margin-left: 2em;
+}
+
 .navbar {
   background-color: #fff;
   height: 2.5rem;
@@ -418,7 +423,6 @@ footer ul > li {
 
 .card img {
   width: 100%;
-  max-height: 183px;
 }
 
 .card figcaption {
@@ -627,32 +631,32 @@ div.subs {
 
 .corona-info {
   border-top: 1px solid black;
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   font-size: 16px;
   background-color: #fff;
   position: static;
   width: 100%;
   bottom: 0;
-}
-
-.corona-info div:first-child {
-  display: flex;
-  justify-content: right;
-  flex: 1.8;
-  padding: 1rem 0;
-}
-
-.corona-info div:last-child {
-  display: flex;
-  flex: 1.2;
-  padding: 1rem 0;
+  height: 55px;
   justify-content: center;
+  align-items: center;
+  column-gap: 10em;
 }
 
-.corona-info div:last-child a {
-  font-size: 12px;
+.corona-info > * {
+  height: 100%;
+  padding: 1em 0;
+}
+
+.corona-info > div:first-child {
+  text-align: right;
+  padding: 1em 7em;
+}
+
+.corona-info > div:last-child {
   font-weight: 600;
-  margin-right: 1.5rem;
+  font-size: 12px;
 }
 
 .corona-info div:last-child svg {
