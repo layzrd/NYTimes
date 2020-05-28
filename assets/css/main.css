@@ -69,7 +69,8 @@ footer header > div > a {
   font-weight: 400;
 }
 
-a:hover {
+a:hover,
+:not(footer a:hover) {
   color: #666;
 }
 
@@ -629,10 +630,9 @@ div.subs {
   display: flex;
   font-size: 16px;
   background-color: #fff;
-  position: fixed;
+  position: static;
   width: 100%;
-  height: 100%;
-  top: 94%;
+  bottom: 0;
 }
 
 .corona-info div:first-child {
