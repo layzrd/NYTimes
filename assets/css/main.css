@@ -69,13 +69,12 @@ footer header > div > a {
   font-weight: 400;
 }
 
-a:hover,
-:not(footer a:hover) {
+body a:hover {
   color: #666;
+  cursor: pointer;
 }
 
 .sideList li a {
-  color: #121212;
   font-family: georgia, "times new roman", times, serif;
   font-weight: 500;
   font-size: 1.125rem;
@@ -88,6 +87,7 @@ a:hover,
 }
 
 footer ul a:hover {
+  color: #000;
   text-decoration: underline;
 }
 
