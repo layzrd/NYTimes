@@ -1,4 +1,4 @@
-# YouTube Clone
+# The New York 
 
 > The New York Times website news page clone based on an article from [Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times ](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
