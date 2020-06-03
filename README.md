@@ -8,9 +8,9 @@ This web page is developed by HTML5 and CSS only, without using any framework or
 
 ## Built With
 
-- HTML5,
-- CSS,
-- Stylelint and stickler for linting purpose,
+- HTML5
+- CSS
+- Stylelint and stickler for linting purpose
 - html-validator-cli for validate HTML
 
 ## Live Demo
